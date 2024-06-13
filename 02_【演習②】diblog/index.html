@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>D.I.BLOG</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $(".slider").bxSlider({
+                    auto:true,
+                    mode:"horizontal",
+                    speed:2000,
+                    slideWidth:1000
+                                     });
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="logo"><img src="03_Practice/diblog_logo.jpg" width="300"></div>
+            <ul>
+                <li>トップ</li>
+                <li>プロフィール</li>
+                <li>D.I.Blogについて</li>
+                <li>登録フォーム</li>
+                <li>問い合わせ</li>
+                <li>その他</li>
+            </ul>
+        </header>
+        <main>
+            <div class="left">
+                <h1>プログラミングに役立つ書籍</h1>
+                <h2>2017年1月15日</h2>
+                <div class="slider">
+                    <div><img src="jQuery_image1.jpg"></div>
+                    <div><img src="jQuery_image2.jpg"></div>
+                    <div><img src="jQuery_image3.jpg"></div>
+                    <div><img src="jQuery_image4.jpg"></div>
+                    <div><img src="jQuery_image5.jpg"></div>
+                </div>
+                <h3>D.I.BlogはD.I.Worksが提供する演習課題です。</h3>
+                <br>
+                <h3>記事中身</h3>
+                <div class="main-contents">
+                    <figure><img src="03_Practice/pic1.jpg"><figcaption>ドメインの操作方法</figcaption></figure>
+                    <figure><img src="03_Practice/pic2.jpg"><figcaption>快適な小場環境</figcaption></figure>
+                    <figure><img src="03_Practice/pic3.jpg"><figcaption>Linuxの基礎</figcaption></figure>
+                    <figure><img src="03_Practice/pic4.jpg"><figcaption>マーケティング入門</figcaption></figure>
+                    <figure><img src="03_Practice/pic5.jpg"><figcaption>アクティブラーニング</figcaption></figure>
+                    <figure><img src="03_Practice/pic6.jpg"><figcaption>cssの効果的な方法</figcaption></figure>
+                    <figure><img src="03_Practice/pic7.jpg"><figcaption>リーダブルコードとは</figcaption></figure>
+                    <figure><img src="03_Practice/pic8.jpg"><figcaption>HTML5の可能性</figcaption></figure>
+                </div>
+            </div>
+            <div class="right">
+                <h2>人気の記事</h2>
+                <ul>
+                    <li>PHPオススメ本</li>
+                    <li>PHP　MyAdminの使い方</li>
+                    <li>いま人気のエディタTops</li>
+                    <li>HTMLの基礎</li>
+                </ul>
+                <h2>オススメリンク</h2>
+                <ul>
+                    <li>ﾃﾞｨｰｱｲﾜｰｸｽ株式会社</li>
+                    <li>XAMPPのダウンロード</li>
+                    <li>Eclipseのダウンロード</li>
+                    <li>Braketsのダウンロード</li>
+                </ul>
+                <h2>カテゴリ</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </main>
+    </body>
+    <footer>
+        Copyright D.I.works| D.I.blog is the oen which provides A to Z about programming
+    </footer>
+</html>
